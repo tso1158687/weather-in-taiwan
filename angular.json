@@ -123,9 +123,16 @@
               "devServerTarget": "weather-in-taiwan:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "weather-in-taiwan"
+  "defaultProject": "weather-in-taiwan",
+  "cli": {
+    "analytics": "2b594859-d248-4caf-be17-cb63f084353b"
+  }
 }
