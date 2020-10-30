@@ -128,7 +128,7 @@
   dependencies:
     tslib "^2.0.0"
 
-"@angular/cdk@^10.2.6":
+"@angular/cdk@^10.2.1":
   version "10.2.6"
   resolved "http://npmjs.t-cloud.lileesystems.com/@angular%2fcdk/-/cdk-10.2.6.tgz#6130b261f7cdc5a130b608c711d1ea7139b11a06"
   integrity sha512-7bvls1XiLejPirVC4ocdtmc/fgfPSG0BNwUvarl34g6ybj8mR+WDagMWnZMt0VXsnago2ImhGdD7YB9oJ3CpBQ==
@@ -1338,6 +1338,18 @@
     merge-source-map "^1.1.0"
     schema-utils "^2.7.0"
 
+"@nebular/eva-icons@6.2.1":
+  version "6.2.1"
+  resolved "http://npmjs.t-cloud.lileesystems.com/@nebular%2feva-icons/-/eva-icons-6.2.1.tgz#e347aa22c1477e5ccfc9bc210a2710eeadbd1283"
+  integrity sha512-YoZqHpSy9VPy/MiAczOeclEOtwyhKA0HrsXMIInUbzc5vmC2xFcVsYNXi9S48DufgANDLjH3I61CiOp11ynyRw==
+
+"@nebular/theme@^6.2.1":
+  version "6.2.1"
+  resolved "http://npmjs.t-cloud.lileesystems.com/@nebular%2ftheme/-/theme-6.2.1.tgz#9faa3bc8354fd1fc5ea43420b0cae3428dfc228c"
+  integrity sha512-0lknv6t8IY7l05/G8d/9OFfkNVjISYoTFzIWAmGQPvBL+MlQIoOstAOSlTmWNcJP/KdHvr3iUXupR2P3bTv4Ow==
+  dependencies:
+    intersection-observer "0.7.0"
+
 "@ngtools/webpack@10.2.0":
   version "10.2.0"
   resolved "http://npmjs.t-cloud.lileesystems.com/@ngtools%2fwebpack/-/webpack-10.2.0.tgz#42a9aba997a69effedd7cba75d0c69756f1b7fc4"
@@ -1375,7 +1387,7 @@
   dependencies:
     mkdirp "^1.0.4"
 
-"@schematics/angular@10.2.0":
+"@schematics/angular@10.2.0", "@schematics/angular@~10.2.0":
   version "10.2.0"
   resolved "http://npmjs.t-cloud.lileesystems.com/@schematics%2fangular/-/angular-10.2.0.tgz#30fb6ab3500592a243b9a19398b7c724ee6b3be7"
   integrity sha512-rJRTTTL8CMMFb3ebCvAVHKHxuNzRqy/HtbXhJ82l5Xo/jXcm74eV2Q0RBUrNo1yBKWFIR+FIwiXLJaGcC/R9Pw==
@@ -3791,6 +3803,11 @@ etag@~1.8.1:
   resolved "http://npmjs.lileesystems.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
+eva-icons@^1.1.2:
+  version "1.1.3"
+  resolved "http://npmjs.t-cloud.lileesystems.com/eva-icons/-/eva-icons-1.1.3.tgz#d4a88a93e92250c769703eb90920752ab0f72c0a"
+  integrity sha512-QBSEWNbEx1H0numXP1qgxKVCZHonRaky5ft4pGzQBcO4cy7mEja6TuJ8rc7BqX2pmkvetVQWKDH+DK/8y7GTag==
+
 eventemitter3@^4.0.0:
   version "4.0.0"
   resolved "http://npmjs.lileesystems.com/eventemitter3/-/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
@@ -4809,6 +4826,11 @@ internal-ip@^4.3.0:
   dependencies:
     default-gateway "^4.2.0"
     ipaddr.js "^1.9.0"
+
+intersection-observer@0.7.0:
+  version "0.7.0"
+  resolved "http://npmjs.t-cloud.lileesystems.com/intersection-observer/-/intersection-observer-0.7.0.tgz#ee16bee978db53516ead2f0a8154b09b400bbdc9"
+  integrity sha512-Id0Fij0HsB/vKWGeBe9PxeY45ttRiBmhFyyt/geBdDHBYNctMRTE3dC1U3ujzz3lap+hVXlEcVaB56kZP/eEUg==
 
 invariant@^2.2.2:
   version "2.2.4"

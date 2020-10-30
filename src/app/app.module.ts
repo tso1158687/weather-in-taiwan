@@ -5,9 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule }    from '@angular/common/http';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatIconModule} from '@angular/material/icon';
-const materialModule=[MatToolbarModule,MatIconModule]
+
+import { NbThemeModule, NbLayoutModule,NbContextMenuModule } from '@nebular/theme';
+import { NbEvaIconsModule } from '@nebular/eva-icons';
 @NgModule({
   declarations: [
     AppComponent
@@ -17,7 +17,11 @@ const materialModule=[MatToolbarModule,MatIconModule]
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    ...materialModule
+    // ...materialModule,
+    NbThemeModule.forRoot({ name: 'dark' }),
+    NbLayoutModule,
+    NbEvaIconsModule,
+    NbContextMenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
