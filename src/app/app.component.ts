@@ -1,4 +1,5 @@
 import { Component,OnInit } from '@angular/core';
+import { NbThemeService } from '@nebular/theme';
 import { WeatherService } from './service/weather.service';
 
 @Component({
@@ -9,7 +10,9 @@ import { WeatherService } from './service/weather.service';
 export class AppComponent implements OnInit {
   title = 'weather-in-taiwan';
   data:any
+  selectedItemNgModel
   constructor(
+    private themeService: NbThemeService,
     private weatherService:WeatherService
   ){}
   ngOnInit(){
@@ -20,5 +23,8 @@ export class AppComponent implements OnInit {
       this.data=e.filter(e=>e.locationName==='新北市')
       console.log(this.data)
     })
+  }
+  changeTheme(themeName){
+    this.themeService.changeTheme(themeName)
   }
 }

@@ -6,8 +6,9 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule }    from '@angular/common/http';
 
-import { NbThemeModule, NbLayoutModule,NbContextMenuModule } from '@nebular/theme';
+import { NbThemeModule, NbLayoutModule,NbContextMenuModule, NbSelectModule } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent
@@ -22,6 +23,8 @@ import { NbEvaIconsModule } from '@nebular/eva-icons';
     NbLayoutModule,
     NbEvaIconsModule,
     NbContextMenuModule,
+    NbSelectModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

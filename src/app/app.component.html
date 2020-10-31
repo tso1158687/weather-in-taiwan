@@ -1,14 +1,33 @@
 <nb-layout>
 
   <nb-layout-header fixed>
-  <!-- Insert header here -->
+    台灣即時天氣預報
+    <nb-select placeholder="NgModel" [(ngModel)]="selectedItemNgModel">
+      <nb-option value="1" (click)="changeTheme('dark')">dark</nb-option>
+      <nb-option value="2" (click)="changeTheme('default')">default</nb-option>
+      <nb-option value="3" (click)="changeTheme('corporate')">corporate</nb-option>
+      <nb-option value="4">Option 4</nb-option>
+    </nb-select>
   </nb-layout-header>
 
   <nb-layout-column>
+    layout
+  </nb-layout-column>
+  <nb-layout-column>
+    layout
+  </nb-layout-column>
+  <nb-layout-column>
+    layout
+  </nb-layout-column>
+  <nb-layout-column>
+    layout
+  </nb-layout-column>
+  <nb-layout-column>
+    layout
   </nb-layout-column>
 
   <nb-layout-footer fixed>
-  <!-- Insert footer here -->
+    create by jason zheng
   </nb-layout-footer>
 
 </nb-layout>
