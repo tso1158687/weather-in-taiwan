@@ -8,9 +8,8 @@ import { WeatherService } from './service/weather.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'weather-in-taiwan';
   data:any
-  selectedItemNgModel
+  themeMode='dark'
   constructor(
     private themeService: NbThemeService,
     private weatherService:WeatherService
@@ -24,7 +23,14 @@ export class AppComponent implements OnInit {
       console.log(this.data)
     })
   }
-  changeTheme(themeName){
-    this.themeService.changeTheme(themeName)
+  changeTheme(){
+    console.log(this.themeMode)
+
+    this.themeService.changeTheme(this.themeMode)
+  }
+
+  toggleThemeMode(data){
+    console.log('toggle theme mode')
+
   }
 }

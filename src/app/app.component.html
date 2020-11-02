@@ -2,11 +2,9 @@
 
   <nb-layout-header fixed>
     台灣即時天氣預報
-    <nb-select placeholder="NgModel" [(ngModel)]="selectedItemNgModel">
-      <nb-option value="1" (click)="changeTheme('dark')">dark</nb-option>
-      <nb-option value="2" (click)="changeTheme('default')">default</nb-option>
-      <nb-option value="3" (click)="changeTheme('cosmic')">cosmic</nb-option>
-      <nb-option value="4">Option 4</nb-option>
+    <nb-select placeholder="主題樣式" [(ngModel)]="themeMode" (ngModelChange)="changeTheme()">
+      <nb-option value="default">淺色</nb-option>
+      <nb-option value="dark">深色</nb-option>
     </nb-select>
   </nb-layout-header>
 
@@ -38,7 +36,7 @@
   
 
   <nb-layout-footer fixed>
-    create by jason zheng
+    create by jason zheng <nb-icon icon="github"></nb-icon>
   </nb-layout-footer>
 
 </nb-layout>

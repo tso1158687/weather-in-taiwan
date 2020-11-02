@@ -1141,9 +1141,9 @@
     merge-source-map "^1.1.0"
     schema-utils "^2.7.0"
 
-"@nebular/eva-icons@6.2.1":
+"@nebular/eva-icons@^6.2.1":
   version "6.2.1"
-  resolved "https://registry.npmjs.org/@nebular/eva-icons/-/eva-icons-6.2.1.tgz#e347aa22c1477e5ccfc9bc210a2710eeadbd1283"
+  resolved "http://npmjs.t-cloud.lileesystems.com/@nebular%2feva-icons/-/eva-icons-6.2.1.tgz#e347aa22c1477e5ccfc9bc210a2710eeadbd1283"
   integrity sha512-YoZqHpSy9VPy/MiAczOeclEOtwyhKA0HrsXMIInUbzc5vmC2xFcVsYNXi9S48DufgANDLjH3I61CiOp11ynyRw==
 
 "@nebular/theme@^6.2.1":
