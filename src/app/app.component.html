@@ -5,12 +5,12 @@
     <nb-select placeholder="NgModel" [(ngModel)]="selectedItemNgModel">
       <nb-option value="1" (click)="changeTheme('dark')">dark</nb-option>
       <nb-option value="2" (click)="changeTheme('default')">default</nb-option>
-      <nb-option value="3" (click)="changeTheme('corporate')">corporate</nb-option>
+      <nb-option value="3" (click)="changeTheme('cosmic')">cosmic</nb-option>
       <nb-option value="4">Option 4</nb-option>
     </nb-select>
   </nb-layout-header>
 
-  <nb-layout-column>
+  <!-- <nb-layout-column>
     layout
   </nb-layout-column>
   <nb-layout-column>
@@ -24,7 +24,18 @@
   </nb-layout-column>
   <nb-layout-column>
     layout
+  </nb-layout-column> -->
+  <nb-layout-column>
+    <div class="row">
+      <div class="col-md-12">1</div>
+      <div class="col-md-12">1</div>
+      <div class="col-md-12">1</div>
+      <div class="col-md-12">1</div>
+      <div class="col-md-12">1</div>
+  
+    </div>
   </nb-layout-column>
+  
 
   <nb-layout-footer fixed>
     create by jason zheng
